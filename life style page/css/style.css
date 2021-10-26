@@ -1,0 +1,71 @@
+
+.under-nav-text{
+    font-size: 16px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.absolute{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    color: white;
+    background-color:rgba(0, 174, 255, 0.466)
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.img1{
+    background-color:rgba(235, 241, 243, 0.726);
+    height: 100%;
+}
+.img2{
+    background-color:rgba(13, 13, 14, 0.438);
+    height: 100%;
+    color: white;
+}
+.pos-relative{
+    position: relative;
+}
+.pos-absolut{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(76, 76, 192, 0.438);
+}
+.po-abs{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(35, 38, 39, 0.671);
+}
+.po-rel{
+    position: relative;
+}
+.form-control{
+    background-color:rgba(0, 174, 255, 0);
+    color:white;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.icons{
+    position: absolute;
+    bottom:0;
+}
+.social>a{
+   margin-left: 20px; 
+}

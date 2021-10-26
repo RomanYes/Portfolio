@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color:blueviolet;
+    margin: 0 auto;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.log-form{
+    width: 350px;
+    height: 350px;
+    background-color:rgb(224, 219, 219);
+    position: absolute;
+    right: 75px;
+    top: 25px;
+    box-shadow: 0px 0px 9px 10px rgb(216, 219, 221);
+    border: 1px solid rgb(224, 219, 219);
+}
+form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+input{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 390px;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul li a{
+    width: 200px;
+    background-color: blue;
+}
+.icons{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 400px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+.twitter{
+    background-color: rgb(41, 190, 190);
+}
+div p{
+    color: white;
+    font-size: 18px;
+}
+#button{
+    background-color: rgb(22, 179, 22);
+    color: white;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-bottom: 3px solid green;
+}

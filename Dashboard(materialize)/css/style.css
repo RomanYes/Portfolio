@@ -1,0 +1,123 @@
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+
+/* aside-navigation */
+.company-sidenav{
+    padding: 20px 0 20px 60px;
+    font-weight: bold;
+}
+.side-nav-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sidenav a.active{
+    background-color: rgb(212, 34, 123) !important;
+    color: white;
+}
+.sidenav a.active i {
+    color: white !important;
+}
+/* main */
+.main-text{
+    font-weight: bold;
+    padding: 0 0 0 20px;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-end{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+    margin-top: -40px;
+    padding: 15px;
+}
+.card-img-relative{
+    position: relative;
+}
+.card-img-absolute{
+    position: absolute;
+    top:-15px;
+    left: 15px;
+}
+.text-img-center{
+    display: flex;
+}
+body{
+    background-color: rgb(231, 222, 222);
+}
+/* second cards */
+.card-img-relative-second{
+    position: relative;
+}
+.card-img-absolute-second{
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    width: 95%;
+}
+.menu-nav{
+    display: flex;
+    width: 100%;
+}
+.nav-section-nav{
+    background-color:orange;
+    padding: 10px;
+    width: 100%;
+}
+.menu-nav>li{
+    margin-left: 20px;
+}
+/* .menu-nav{
+    background-color:orange;
+    padding: 10px;
+    width: 100%
+} */
+.one-menu{
+    padding: 10px;
+}
+.pad>a:hover{
+    background-color: rgba(221, 226, 211, 0.445);
+}
+
+
+.pos-rela{
+    position: relative;
+}
+.pos-abso{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    width: 95%;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.d-flexible{
+    display: flex;
+    justify-content: space-around;
+}
+.ml{
+    padding: 5px;
+}
+.border-brn{
+    border-bottom: 2px solid grey;
+}

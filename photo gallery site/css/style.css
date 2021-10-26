@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(166, 168, 162);
+}
+.container{
+    display:flex;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.photos-bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photos-bottom div{
+    flex-grow: 1;
+}
+.photos{
+    display:flex;
+    flex-wrap: wrap;
+}
+.photos div{
+    flex-grow: 1;
+}
+.photos1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photos1 div{
+    flex-grow: 1;
+}
+.photos2{
+    display: flex;
+    justify-content: center;
+}
+.flex-container{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 50px;
+}
+.flex-container-top{
+    margin-left:50px;
+    margin-right: 50px;
+}
+.about{
+    display:flex;
+    flex-wrap: wrap;
+}
+/* Hover effects topac My Last Work */
+/* 1foto */
+ .photos div{
+    position: relative;
+}
+
+
+.hide-text p{
+    position:absolute;
+    bottom: 0;
+    width: 300px;
+    height: 300px;
+    left: 40px;   
+}
+/*
+.hide-text p {
+    visibility: hidden;
+}
+img .hide-text:hover{
+    background-color: white;
+    opacity: 0.7;
+    
+} */
+.hide-text {
+    opacity: 0;
+    transition: .5s;
+}
+.hide-text:hover {
+    opacity: 1;
+}
+/* 2foto */
+.photos1 .hide-text{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+}
+@media (max-width: 768px){
+    .mobile-toggle span {
+        width: 30px;
+        height: 4px;
+        margin-bottom: 6px;
+        background: #000000;
+        display: block;
+    }
+}

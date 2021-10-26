@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, );
+        });
+    </script>
+</head>
+
+<body>
+
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li>
+            <h5 class="company-sidenav">Company</h5>
+            <div class="divider"></div>
+        </li>
+        <br>
+        <li class="side-nav-padding"><a href="#!" class="active"><i class="material-icons">dashboard</i>Dashboard</a>
+        </li>
+        <li class="side-nav-padding"><a href="#!"><i class="material-icons">person</i>User Profile</a></li>
+        <li class="side-nav-padding"><a href="#!"><i class="material-icons">location_on</i>Maps</a></li>
+        <li class="side-nav-padding"><a href="#!"><i class="material-icons">done_all</i>Notifications</a></li>
+        <li class="side-nav-padding"><a href="#!"><i class="material-icons">language</i>Support</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <!-- main section -->
+    <main>
+        <h5 class="main-text">Dashboard</h5>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col s3">
+                <div class="card" style="width: 100%;">
+                    <div class="card-content black-text card-img-relative">
+                        <div class="card-img-absolute" style="background: green;padding: 20px;">
+                            <img src="./images/data_white.svg" class="responsive-img" style="width: 35px;" alt="">
+                        </div>
+                    </div>
+                    <div class="flex-end">
+                        <span style="font-weight:600"> Used Space</span>
+                        <span style="font-size: 26px;">49/50 GB</span>
+                    </div>
+                    <div style="padding: 0 10px;">
+                        <hr>
+                    </div>
+                    <div class="text-img-center" style="padding: 15px;">
+                        <img src="./images/alert.png" alt="">
+                        <span style="color:grey;margin-left: 10px;">Get more space...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card">
+                    <div class="card-content black-text card-img-relative">
+                        <div class="img-card card-img-absolute" style="background: orange;padding: 20px;">
+                            <img src="./images/shop_white.svg" style="width: 35px;" alt="">
+                        </div>
+                    </div>
+                    <div class="flex-end">
+                        <span style="font-weight:600">Revenue</span>
+                        <span style="font-size: 26px;">$ 34,245</span>
+                    </div>
+                    <div style="padding: 0 10px;">
+                        <hr>
+                    </div>
+                    <div class="text-img-center" style="padding: 15px;">
+                        <img src="./images/calendar.png" alt="">
+                        <span style="color:grey;margin-left: 10px;">Last 24 Hours</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card">
+                    <div class="card-content black-text card-img-relative">
+                        <div class="img-card card-img-absolute" style="background: blue;padding: 20px;">
+                            <img src="./images/tag_white.svg" style="width: 35px;" alt="">
+                        </div>
+                    </div>
+                    <div class="flex-end">
+                        <span style="font-weight:600">Fixed Issues</span>
+                        <span style="font-size: 26px;">75</span>
+                    </div>
+                    <div style="padding: 0 10px;">
+                        <hr>
+                    </div>
+                    <div class="text-img-center" style="padding: 15px;">
+                        <img src="./images/down.png" alt="">
+                        <span style="color:grey;margin-left: 10px;">Tracked from Github</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card">
+                    <div class="card-content black-text card-img-relative">
+                        <div class="img-card card-img-absolute" style="background:rgb(224, 14, 112);padding: 20px;">
+                            <img src="./images/paperplane_white.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="flex-end">
+                        <span style="font-weight:600">Followers</span>
+                        <span style="font-size: 26px;">+ 245</span>
+                    </div>
+                    <div style="padding: 0 10px;">
+                        <hr>
+                    </div>
+                    <div class="text-img-center" style="padding: 15px;">
+                        <img src="./images/time.png" alt="">
+                        <span style="color:grey;margin-left: 10px;">Just updated</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second section -->
+        <div class="row">
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-content black-text card-img-relative-second">
+                        <div class="card-img-absolute-second" style="background:green;">
+                            <img src="./images/graphics.svg" class="responsive-img" alt="">
+                        </div>
+                    </div>
+                    <div class="flex-" style="margin-top: 130px; padding: 10px;">
+                        <span style="font-size: 20px;">Daily Sales</span><br>
+                        <span style="font-weight:600">55% increase in today sales</span>
+                    </div>
+                    <div style="padding: 0 10px;">
+                        <hr>
+                    </div>
+                    <div class="text-img" style="padding: 15px;">
+                        <img src="./images/time.png" alt="">
+                        <span style="color:grey;margin-left: 10px;">updated 4 minutes ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-content black-text card-img-relative-second">
+                        <div class="card-img-absolute-second" style="background:orange;">
+                            <img src="./images/graphics.svg" class="responsive-img" alt="">
+                        </div>
+                    </div>
+                    <div class="flex-" style="margin-top: 130px; padding: 10px;">
+                        <span style="font-size: 20px;">Email Suscriptions</span><br>
+                        <span style="font-weight:600">Last Campanign Performance</span>
+                    </div>
+                    <div style="padding: 0 10px;">
+                        <hr>
+                    </div>
+                    <div class="text-img" style="padding: 15px;">
+                        <img src="./images/time.png" alt="">
+                        <span style="color:grey;margin-left: 10px;">campaing send 2 weeks ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-content black-text card-img-relative-second">
+                        <div class="card-img-absolute-second" style="background:rgb(224, 14, 112)">
+                            <img src="./images/graphics.svg" class="responsive-img" alt="">
+                        </div>
+                    </div>
+                    <div class="flex-" style="margin-top: 130px; padding: 10px;">
+                        <span style="font-size: 20px;">Email Suscriptions</span><br>
+                        <span style="font-weight:600">Last Campanign Performance</span>
+                    </div>
+                    <div style="padding: 0 10px;">
+                        <hr>
+                    </div>
+                    <div class="text-img" style="padding: 15px;">
+                        <img src="./images/time.png" alt="">
+                        <span style="color:grey;margin-left: 10px;">campaing send 2 weeks ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6 pos-rela">
+                <div class="card">
+                    <div class="card-content black-text">
+                        <div class="nav-section-nav pos-abso">
+                            <ul class="menu-nav">
+                                <li class="white-text">Tasks:</li>
+                                <li class="pad"><a href="" class="white-text one-menu"><img src="./images/bug.svg"
+                                            alt="">&nbsp;&nbsp; Bugs</a></li>
+                                <li class="pad"><a href="" class="white-text one-menu"><img src="./images/web.svg"
+                                            alt="">&nbsp;&nbsp;Website</a></li>
+                                <li class="pad"><a href="" class="white-text one-menu"><img src="./images/cloud.svg"
+                                            alt="">&nbsp;&nbsp;Server</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <ul style="padding: 0 10px">
+                            <li class="d-flex border-brn">
+                                <div>
+                                    <p>
+                                        <label>
+                                          <input type="checkbox" checked="checked" />
+                                          <span style="color:white">.</span>
+                                        </label>
+                                      </p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Someone man open the door</p>
+                                </div>
+                                <div class="d-flexible">
+                                    <img src="./images/edit.png" alt="" class="ml">
+                                    <img src="./images/remove.png" alt="" class="ml">
+                                </div>
+                            </li>
+                            <li class="d-flex border-brn">
+                                <div>
+                                    <p>
+                                        <label>
+                                          <input type="checkbox" />
+                                          <span style="color:white">.</span>
+                                        </label>
+                                      </p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Someone man open the door</p>
+                                </div>
+                                <div class="d-flexible">
+                                    <img src="./images/edit.png" alt="" class="ml">
+                                    <img src="./images/remove.png" alt="" class="ml">
+                                </div>
+                            </li>
+                            <li class="d-flex border-brn">
+                                <div>
+                                    <p>
+                                        <label>
+                                          <input type="checkbox"/>
+                                          <span style="color:white">.</span>
+                                        </label>
+                                      </p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Someone man open the door</p>
+                                </div>
+                                <div class="d-flexible">
+                                    <img src="./images/edit.png" alt="" class="ml">
+                                    <img src="./images/remove.png" alt="" class="ml">
+                                </div>
+                            </li>
+                            <li class="d-flex border-brn">
+                                <div>
+                                    <p>
+                                        <label>
+                                          <input type="checkbox" checked="checked" />
+                                          <span style="color:white">.</span>
+                                        </label>
+                                      </p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Someone man open the door</p>
+                                </div>
+                                <div class="d-flexible">
+                                    <img src="./images/edit.png" alt="" class="ml">
+                                    <img src="./images/remove.png" alt="" class="ml">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="card">
+                    <div class="card-content pos-rela">
+                        <div class="pos-abso" style="background-color: blue;color: white; padding:10px 20px;">
+                            <h5>Employess Stats</h5>
+                            <p> New employess 19th 2000 year</p>
+                        </div>
+                        <div style="margin-top: 70px;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

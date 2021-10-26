@@ -1,0 +1,175 @@
+/* img{
+    width: 50px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.one{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main{
+    display: flex;
+}
+.small{
+    width: 30px;
+}
+.ko{
+    display: flex;
+    border-bottom: 2px solid silver;
+    width: auto;
+}
+.image{
+    width: 10%;
+}
+.text1{
+    width: 15%;
+}
+.text2{
+    width: 50%;
+    display: flex;
+}
+.content{
+    width: 100%;
+} */
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* HEADER */
+.header-image{
+    width: 80px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding: 20px;
+    background-color:silver;
+    border-bottom: 5px solid rgb(136, 132, 132);
+}
+.one{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.one p{
+    align-self: center;
+}
+/* NAVIGATION */
+.nav{
+    height: 100%;
+    background-color:silver;
+}
+nav div a {
+    display:flex;
+}
+nav img{
+    width: 60px;
+}
+nav div a p{
+    align-self:center;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+nav div{
+    padding:10px 70px;
+    background-color: silver;
+}
+.navigation{
+    width: 25%;
+}
+nav div a:hover{
+    background-color: red;
+}
+/* MAIN content */
+.main{
+    display: flex;
+    background-color:rgb(233, 215, 215);
+}
+.star{
+    width: 30px;
+}
+.letter{
+    display: flex;
+    border-bottom: 2px solid silver;
+    padding-top: 20px;
+}
+.content{
+    width: 100%;
+}
+.image{
+    width: 12%;
+    text-align: center;
+}
+.text1{
+    width: 15%;
+    align-self: center;
+}
+.text2{
+    width: 50%;
+    display: flex;
+    align-self: center;
+}
+.text3{
+    align-self: center;
+}
+
+
+
+
+@media (min-width:550px) and (max-width:800px){
+    .container{
+        width: 100%;
+    }
+    .letter{
+        display: flex;
+        }
+    .text2{
+        display:block;
+    }
+    .text1{
+        display: block;
+    }
+    .letter{
+        margin-left: 10%;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .text1,.text2{
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .navigation{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .text1,.text2{
+        width: 100%;
+    }
+    .letter{
+        margin-left: 10%;
+        display:flex;
+    }
+    .text2{
+        display:block;
+    }
+    .text1{
+        display: block;
+    }
+}

@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.forgot{
+    text-decoration: none;
+}
+.page{
+    background: url(../images/book.jpg)no-repeat center ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+}
+.header{
+    text-align: center;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 20%;
+}
+.forms{
+    width: 30vw;    
+}
+
+/* page2 */
+.fas{
+    font-size: 30px;
+}
+.arrow{
+    display:flex;
+    justify-content: center;
+    margin:20px
+}
+.right-nav{
+    color:rgba(158, 199, 226, 0.9)
+}
+.left-nav{
+    color: white;
+    font-size: 50px;
+}
+.color{
+    color: white;
+    opacity: 0.6;
+}
+.badge{
+    margin-top: 10px;
+}
+.arrow>a{
+    margin: 0 20px;
+    text-decoration: none;
+}
+.news{
+    margin-top: 50px;
+}
+/* page 3 */
+.send{
+    margin-bottom: 20px;
+}
+/* page4 */
+.top-2{
+    margin-top: 50px;
+}
+.top-lesons{
+    margin-top: 30px;
+}
+.size{
+    font-size:20px;
+}
+.width{
+    width: 70%;
+}
+/* page 5 */
+.page-5{
+    width: 35%;
+}
+.table-top{
+    opacity: 0.6;
+    color: white    ;
+}
+/* page 6 */
+.top-last{
+    margin-top: 50px;
+}
+.page-6{
+    width:70%;
+}
+.file{
+    margin-left: 20px;
+}
+
+@media (min-width:320px) and (max-width:576px){
+    .navbar{
+        width: 100%;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    
+}
