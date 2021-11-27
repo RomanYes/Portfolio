@@ -1,0 +1,29 @@
+#showResult {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+
+}
+
+#colorShadow {
+    width: 100%;
+}
+
+#copyBtn {
+    width: 100%;
+}
+
+.row {
+    margin-top: 80px;
+}
+
+body {
+    background: rgb(63, 251, 148);
+    background: radial-gradient(circle, rgba(63, 251, 148, 1) 0%, rgba(245, 252, 70, 1) 100%);
+}
+
+.collapsible-header {
+    background: rgb(180, 58, 58);
+    background: linear-gradient(90deg, rgba(180, 58, 58, 1) 0%, rgba(210, 253, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    font-size: 16px;
+}

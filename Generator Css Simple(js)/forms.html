@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Class -->
+  <!-- <select name="" id="carsList">
+        <option value="ford">Ford</option>
+        <option value="bmw">Bmw</option>
+        <option value="audi">Audi</option>
+        <option value="mers">Mers</option>
+        <option value="lamba">Lamba</option>
+        <option value="jiga">Jiga</option>
+    </select>
+
+    <input type="button" name="" id="btn1" value="Ok">
+  
+
+
+    <input type="color" name="" id="color1">
+    <input type="button" name="" id="btn2" value="Ok"> -->
+
+
+
+
+
+
+
+  <!-- Home -->
+
+
+
+  <div class="container container4all">
+    <div class="row">
+      <div class="col s6">
+        <ul class="collapsible">
+          <li>
+            <div class="collapsible-header" id="rgbaColor"><i class="material-icons">palette</i>RGB-COLOR</div>
+            <div class="collapsible-body">
+              Red:<input type="range" id="rangeColor1" min="0" max="255" value="0" name="rangeColor1">
+              Green:<input type="range" id="rangeColor2" min="0" max="255" value="0" name="rangeColor2">
+              Blue:<input type="range" id="rangeColor3" min="0" max="255" value="0" name="rangeColor3">
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">border_horizontal</i>BORDER-RADIUS</div>
+            <div class="collapsible-body">
+              Border-radius-top-left:<input type="range" id="rangeBorderTopLeft" min="0" max="200" value="0" name="rangeBorderTopLeft">
+              Border-radius-top-rigth:<input type="range" id="rangeBorderTopRight" min="0" max="200" value="0" name="rangeBorderTopRight">
+              Border-radius-bottom-left:<input type="range" id="rangeBorderBottomLeft" min="0" max="200" value="0" name="rangeBorderBottomLeft">
+              Border-radius-bottom-rigth:<input type="range" id="rangeBorderBottomRight" min="0" max="200" value="0" name="rangeBorderBottomRight">
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">zoom_out_map</i>WIDTH AND HEIGHT</div>
+            <div class="collapsible-body">
+              Width:<input type="range" name="rangeWidth" id="rangeWidth" min="200" max="800" value="0" >
+              Height:<input type="range" name="rangeHeight" id="rangeHeight" min="200" max="800" value="0">
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">repeat</i>SCALE-RORATE-TRANSLATE(X)-TRANSLATE(Y)
+            </div>
+            <div class="collapsible-body">
+              Scale:<input type="range" id="rangeScale" min="0" max="1.2" value="1" step="0.1" name="rangeScale">
+              Rotate:<input type="range" id="rangeRotate" min="0" max="360" value="0" name="rangeRotate">
+              TranslateX:<input type="range" id="rangeTranslateX" min="-200" max="200" value="0" name="rangeTranslateX">
+              TranslateY:<input type="range" id="rangeTranslateY" min="-50" max="50" value="0" name="rangeTranslateY">
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">branding_watermark
+              </i>BOX-SHADOW
+            </div>
+            <div class="collapsible-body">
+              OffsetX:<input type="range" name="offX" id="offX" min="-100" max="100" value="0">
+              OffsetY:<input type="range" name="offY" id="offY" min="-100" max="100" value="0">
+              BlurRadius:<input type="range" name="blurRadius" id="blurRadius" min="0" max="100" value="0">
+              SpreadRadius:<input type="range" name="spreadRadius" id="spreadRadius" min="0" max="100" value="0">
+              Color:<input type="color" name="colorShadow" id="colorShadow">
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col s6">
+        <div class="container" id="showResult"></div>
+        <div class="div">
+          <input type="text" id="myInput">
+          <button id="copyBtn" class="waves-effect waves-light btn">Copy Text</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
