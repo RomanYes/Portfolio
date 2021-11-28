@@ -144,7 +144,7 @@ colorShadow.oninput = function () {
 
 // ------Функція копіювання значень
 function myFunction() {
-    // copyText.select()
+    copyText.select()
     navigator.clipboard.writeText(copyText.value)
 }
 copyBtn.onclick = myFunction;
