@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00c6ff;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-top: 5%;
+}
+
+.survey-body-wrapper {
+    display: flex;
+    flex-flow: column;
+}
+
+.survey-run-form {
+    margin: 0 auto;
+    background-color: rgba(55, 119, 128, 0.39);
+    width: 73%;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.survey-question-wrapper {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    vertical-align: top;
+}
+
+.question-container {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    line-height: 28px;
+    margin-bottom: 9px;
+    word-wrap: break-word;
+    padding: 0;
+}
+
+.answer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.answer-options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hidden {
+    display: none;
+}
+
+.blinker {
+    border-radius: 3px;
+    background: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    margin: 0 5px;
+}
+
+.control-selection {
+    width: 100%;
+    align-items: center;
+    flex-flow: row wrap;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.control-label {
+    color: #f9fbfc;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.send-answer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.question-text {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.controls-text {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.blinker:hover {
+    background-color: rgb(159, 211, 226);
+    z-index: -1;
+    cursor: pointer;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%)
+}
+
+.btn-grad {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-send {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+@media(max-width:576px){
+    .controls{
+        display: none;
+    }
+    .nps-option{
+        margin: 2px;
+    }
+}
+
+@media(min-width:576px) and (max-width:768px){
+    .controls{
+        display: none;
+    } 
+    .nps-option{
+        margin: 5px;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .controls{
+        display: none;
+    } 
+    .nps-option{
+        margin: 7px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1200px){
+    .nps-option{
+        margin: 9px;
+    }
+}
